@@ -26,7 +26,8 @@ namespace TestSonarQube
         {
             var test = false;
             string nice = "http://test.com";
-            int counter = 1;
+            int counter = 1;   
+	    int test = 2;
             string hashedNice = Hash(nice);
             
             for(int i = 0; i < 10; i++)
